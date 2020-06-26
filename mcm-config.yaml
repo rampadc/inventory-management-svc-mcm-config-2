@@ -73,7 +73,7 @@ spec:
   name: inventory-management-bff
   channel: test-inventory-svc-git/helm-repo-testdrive-artifactory
   packageFilter:
-    version: 0.0.3
+    version: 0.0.4
   placement:
     placementRef:
       name: inventory-management-svc-2-rule
@@ -91,7 +91,7 @@ spec:
   name: inventory-svc
   channel: test-inventory-svc-git/helm-repo-testdrive-artifactory
   packageFilter:
-    version: 0.0.2
+    version: 0.0.1
   placement:
     placementRef:
       name: inventory-management-svc-2-rule
